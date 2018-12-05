@@ -15,7 +15,7 @@ The task is episodic, and in order to solve the environment, your agents must ge
 
 The environment is considered solved, when the average (over 100 episodes) of those scores is at least +0.5.
 
-## Installation
+## Instructions
 To set up your python environment to run the code in this repository, follow the instructions below.
 Create (and activate) a new environment with Python 3.6.
  Linux or Mac:
@@ -54,5 +54,5 @@ The environment can be downloaded using the following links:
 The environment is build using Unity ML-agent. More details about these environments and how to get started can be found here:
 https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Getting-Started-with-Balance-Ball.md
 
-# Train the Agent
+### Train the Agent
 Finally you just need to run `MADDPG_Tennis.ipynb` to load packages, start the environment and train the agent. You may need to update the environment path in dependency of Operating System.
