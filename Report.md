@@ -185,6 +185,8 @@ With the parameter set given above the MADDPG Agent solved the environment after
 <br>
 The corresponding model weights for both Agents and there respective Actor and Critic Networks are provided in the `MADDPG_Weights_467` folder.
 
+It is obvious that the MADDPG Agent solution is far more succesful as the single DDPG approach, although it is interessting to see, that performance within the first 300 episodes is even negative. But starting around episode 400 the gradient of the curve is almost vertical. The DDPG really started learning after 1000 episodes but with a much smaller gradient which also had a significant increase at the end (around episode 2400).
+
 # Ideas for Future Work
 In this project I concentrated on implementing the MADDPG approach with seperated Replay Buffer but still there are plenty of opportunities to simply improve the performance parameters. A shared Replay Buffer will certainly provide different results but also other Policy Gradient based algorithms (PPO etc.) maybe more succesful or even a more elabored DQN. A combination could also be possible.
 
